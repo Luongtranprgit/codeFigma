@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("./image/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 572px;
+  position: relative;
+}
+
+.narbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.narbar_right {
+  background-color: #d7ffec;
+  width: 151px;
+  height: 31px;
+  border-radius: 4px;
+}
+
+.narbar_left {
+  display: flex;
+  gap: 15px;
+}
+.narbar_left-language {
+  display: flex;
+  gap: 3px;
+}
+.narbar_left-text {
+  color: white;
+}
+
+.narbar_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.narbar_text-top {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: rgba(0, 50, 109, 1);
+  /* margin-left: 20%; */
+}
+.narbar_text-bottom {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.content_position {
+  background: linear-gradient(
+      111.94deg,
+      #0f2536 5.33%,
+      #1b1b1b 74.61%,
+      #313131 99%
+    ),
+    linear-gradient(0deg, rgba(252, 252, 252, 0.14), rgba(252, 252, 252, 0.14));
+  width: 646px;
+  height: 136px;
+  top: 520px;
+  left: 189px;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  position: absolute;
+  left: 29%;
+  top: 76%;
+}
+.content_position-top {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content_positon-topLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: 50%;
+  color: rgba(87, 255, 174, 1);
+}
+
+.content_position-topright {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  color: rgba(252, 252, 252, 1);
+  background-color: rgba(55, 68, 79, 1);
+  border-bottom-left-radius: 10px;
+}
+
+.content_positon-botton-text-all {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content_position-botton-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  margin-top: 5%;
+  color: rgba(4, 48, 75, 1);
+  background-color: rgba(87, 255, 174, 1);
+}
+
+.content_position-botton-text1 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 8px 16px 8px 16px;
+  margin-top: 4%;
+  color: rgba(155, 162, 174, 1);
+}
+
+.cartContent {
+  display: flex;
+  width: 76%;
+  margin: 9% auto;
+  gap: 10px;
+}
+.cart_body-Text-top {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(155, 162, 174, 1);
+}
+
+.cart_body-Text-bot {
+  color: rgba(15, 196, 143, 1);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card_body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_Chose {
+  background-color: rgba(238, 245, 254, 1);
+}
+
+.fs-3 {
+  font-family: Poppins;
+  color: rgba(4, 48, 75, 1);
+  margin-left: 12%;
+}
+
+.box-color {
+  background-color: rgba(4, 48, 75, 1);
+  width: 160px;
+  height: 160px;
+  border-radius: 12px;
+  margin: auto;
+  border-radius: none;
+}
+
+.card-body {
+  background-color: rgba(238, 245, 254, 1);
+}
+
+.custom-card {
+  border: none !important;
+}
+
+.contentEnd {
+  margin-top: 3%;
+}
+
+.footer.p-5.my-5.text-white {
+  background: linear-gradient(0deg, #04304b, #04304b),
+    linear-gradient(180deg, #102638 0%, #06111a 100%);
+}
+
+.footer_right {
+  background-color: rgba(87, 255, 174, 1);
+  width: 175px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.Copyright {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 15%;
+}
+
+.footerText-titleBehind {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
